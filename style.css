@@ -11,31 +11,54 @@
 }
 
 .btnInscription{
-    background-color: white;
-    color:#390099;
-    border: solid 0.3em  #ff0054;
+    border: solid 2px #390099;
+    background-color: #ff0054;
+    color: white;
     padding: 0.2em;
     margin-right: 0.6em;
     }
 
 .btnConnexion{
-    background-color: white;
-    color: #ff0054;
-    border: solid 0.3em #390099;
+    border: solid 2px #390099;
+    background-color: #ff0054;
+    color: white;
     padding: 0.2em;
     }
 
 .fouleTop{
     background-color: #f7f3fe;
+    overflow: hidden;
+}
+
+.imgSaut{
+    overflow: hidden;
 }
 .imgHeader{
     justify-content: center;
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
+
+.taches{
+    width: 100%;
+    height: 75%;
+    max-height: 75%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.tachesToatal{
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+/*
 .piedFoule{
     border: solid 0.2em #fdce21;
-    text-align: center;}
+    text-align: center;} */
 
 H1{
     text-align: center;
@@ -53,46 +76,75 @@ h3{
     margin-bottom: 2em;
 }
 
+/*
 .sousH1{
     border: solid 0.2 #fdce21;
-}
-
+} */
 
 body{
     background-color: #f7f3fe;
     }
     /* rgb(255, 189, 0)*/
+
+.card-groupe{
+    display: flex;
+    justify-content: center;
+}
+
+.card-accueil{
+    background-image: url(texture-papier-aquarelle-blanc-fond.jpg);
+}
+
+.card-image-bottom{
+    display: flex;
+    align-self: baseline;flex-direction: row-reverse;
+}
+
+h5{
+    color: #ff0054;
+    text-align: center;
+}
     
-
-.cardConnexion{
-    margin: 0em 40%;
-    justify-content: center;
-    background-color: white;
+.basPage{
+    height: 5em;
 }
 
-.inscription{ 
-    justify-content: center;
-}
-
-.btnConnectBody{ 
-    background-color: #390099;
-    color:  yellow;
-    padding: 1em;
-    justify-content: space-between;
-}
-
-.btnInscripBody{
-    background-color: #390099;
-    color:  yellow;
-    padding: 1em;
-    justify-content: space-between;
-}
 
 .MonFooter {
     min-height: 100%;
-    display: grid;
     grid-template-rows: auto 1fr auto;
-    align-content: flex-end;
     background-position: bottom;
+}
+
+.navFooter{
+    background-color: #fdce21;
+}
+
+.btnProfilFooter{
+
+    justify-content: center;
+    margin-left: -10em;
+}
+
+.btnFooterInscrip{
+    border: solid 2px #390099;
+    background-color: #ff0054;
+    color: white;
+    padding: 0.2em;
+}
+
+.btnFooterConnex{
+    border: solid 2px #390099;
+    background-color: #ff0054;
+    color: white;
+    padding: 0.2em;
+}
+
+.btnProfil{
+    background-color: #390099;
+    color: #ff0054;
+    border: #ff0054 3px solid;
+    border-radius: 50%;
+    text-align: center;
 }
 

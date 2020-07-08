@@ -1,0 +1,76 @@
+.logoTop{
+    margin-left: 2em;
+    background-color:  #f7f3fe;
+}
+
+.nav-item{
+    padding: 0em 1em;
+}
+.logoNav{
+    padding: 0em 1em;
+}
+
+.btnInscription{
+    background-color: white;
+    color:#390099;
+    border: solid 0.2em  #ff0054;
+    padding: 0.2em;
+    margin-right: 0.6em;
+    }
+
+.btnConnexion{
+    background-color: white;
+    color: #ff0054;
+    border: solid 0.2em #390099;
+    padding: 0.2em;
+    }
+
+.fouleTop{
+    background-color: #f7f3fe;
+    overflow: hidden;
+}
+
+.imgSaut{
+    overflow: hidden;
+}
+.imgHeader{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.taches{
+    width: 100%;
+    height: 75%;
+    max-height: 75%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.tachesToatal{
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+
+body{
+    background-color: #f7f3fe;
+    }
+    /* rgb(255, 189, 0)*/
+
+    .basPage{
+        height: 50em;
+    }
+    
+    .MonFooter {
+        min-height: 100%;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        align-content: flex-end;
+        background-position: bottom;
+    }
+    
+    
